@@ -34,7 +34,7 @@ while True:
     cv2.imshow(win_name, canvas)
 
     # Add text to canvas
-    txt = "type g for green, b for blue, r for red and y for yellow."
+    txt = "Press g for green, b for blue, r for red and y for yellow. Press ecs to finish."
     cv2.putText(canvas, txt, (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255))
 
     # key capture
